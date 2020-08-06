@@ -4,9 +4,8 @@ Example script for inference on the newly collected images in U3DPW.
 
 import sys
 sys.path.append("../src/")
-print(sys.path)
 
-from evo_skeleton.model import model as libm
+from evo_skeleton.model.model import *
 from evo_skeleton.dataset.h36m.data_utils import unNormalizeData
 
 import torch
