@@ -1,12 +1,13 @@
 """
-Am examplar script showing inference on the newly collected images in U3DPW. 
+Example script for inference on the newly collected images in U3DPW.
 """
 
 import sys
-sys.path.append("../")
+sys.path.append("../src/")
+print(sys.path)
 
-import libs.model.model as libm
-from libs.dataset.h36m.data_utils import unNormalizeData
+from evo_skeleton.model import model as libm
+from evo_skeleton.dataset.h36m.data_utils import unNormalizeData
 
 import torch
 import numpy as np

@@ -1,8 +1,8 @@
 #/*
 **/__pycache__
 .spyproject/
-/libs/annotator/fitted
-/libs/annotator/smplify/models
+/src/evo_skeleton/annotator/fitted
+/src/evo_skeleton/annotator/smplify/models
 /data
 /resources
 /model
@@ -17,5 +17,6 @@
 *.pth
 *.csv
 *.pyc
+.idea
 
 
